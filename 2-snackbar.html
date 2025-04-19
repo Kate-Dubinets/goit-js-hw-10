@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Snackbar Task</title>
+    <script type="module" crossorigin src="/vanilla-app-template/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+    <script type="module" crossorigin src="/vanilla-app-template/assets/vendor-BZoxUzx5.js"></script>
+    <script type="module" crossorigin src="/vanilla-app-template/assets/2-snackbar-CPaGYAOQ.js"></script>
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-DRAOUfWK.css">
+  </head>
+  <body>
+    <form class="form">
+      <label>
+        Delay (ms)
+        <input type="number" name="delay" required />
+      </label>
+
+      <fieldset>
+        <legend>State</legend>
+        <label>
+          <input type="radio" name="state" value="fulfilled" required />
+          Fulfilled
+        </label>
+        <label>
+          <input type="radio" name="state" value="rejected" required />
+          Rejected
+        </label>
+      </fieldset>
+
+      <button type="submit">Create notification</button>
+    </form>
+
+  </body>
+</html>
